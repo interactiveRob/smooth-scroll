@@ -3,7 +3,7 @@
  * Animate scrolling to anchor links
  * (c) 2019 Chris Ferdinandi
  * MIT License
- * http://github.com/cferdinandi/smooth-scroll
+ * https://github.com/interactiveRob/smooth-scroll
  */
 
 (function (root, factory) {
