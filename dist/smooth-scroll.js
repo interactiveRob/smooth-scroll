@@ -638,7 +638,12 @@
 
 		return smoothScroll;
 
-	};
+    };
+    
+    //auto init SmoothScroll for all anchor links when this file is imported
+    var allAnchorsScroll = new SmoothScroll('a[href*="#"]', {
+        speed: 800
+    });
 
 	return SmoothScroll;
 
